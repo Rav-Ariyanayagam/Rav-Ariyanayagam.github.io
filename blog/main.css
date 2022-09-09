@@ -12,22 +12,23 @@ p {
   }
 
 .Header-image {
-    display: grid;
+    display: inline-flexbox;
     width: 200px;
-    height: 100px 
+    height: 100px;
+    flex-shrink: 1;
   
   }
 
 .Content {
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
 
 }
 
 .Content-section{ 
-  width : 200px;
+  width : 400px;
   margin : 10px ;
   border : 3px solid white ;
   background-color: rgb(32, 43, 43) ;
