@@ -1,0 +1,73 @@
+
+body {
+  background-color: rgb(75, 85, 94);
+  font-family: 'Dosis';
+  font-color: white;
+  text-align: center;
+  padding: 16px;
+  }
+
+p {
+    font-color: white;
+  }
+
+.Header-image {
+    display: grid;
+    width: 200px;
+    height: 100px 
+  
+  }
+
+.Content {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Content-section{ 
+  width : 200px;
+  margin : 10px ;
+  border : 3px solid white ;
+  background-color: rgb(32, 43, 43) ;
+}
+
+.AboutMe {
+  min-height : 100px ;
+}
+
+.Blog{
+   min-height : 200px ;
+}
+
+.Identity {
+   min-height : 300px;
+}
+
+.LearningPlan {
+  min-height : 300px;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  color:white;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+p {
+  font-color: white;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 12px;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 12pt;
+  background-color: rgb(186, 171, 173);
+}
+
