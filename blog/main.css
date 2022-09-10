@@ -1,35 +1,51 @@
-h1 {
-  background-color: rgba(255, 0, 0, 0.5);
+header{
+  position: 
 }
+
+h2 {
+  color:rgb(124, 160, 160)}
+
 body {
-  background-color: rgb(156, 174, 189);
+  position: relative;
+  background-color: rgb(33, 36, 38);
   font-family: 'Dosis';
-  font-color: rgb(35, 90, 90);
+  color: rgb(29, 84, 84);
   text-align: center;
   padding: 16px;
   }
 
 p {
-    font-color: white;
+  color: white;
   }
 
-.image {
-   
-    width: 1px;
-    height: 1px;
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 100%;
-    padding: 5px 10px 10px;
+  footer {
+    color: white;
   }
 
-.image.frame{
- 
+img {
+    max-width: 50%;
+    max-height: 50%;
+    padding: 20px;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
 }
 
 .Content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: last baseline;
   align-items: center;
 
@@ -38,8 +54,9 @@ p {
 .Content-section{ 
   width : 400px;
   margin : 10px ;
-  border : 3px solid white ;
+  border : 2px solid white ;
   background-color: rgb(124, 160, 160) ;
+  padding: 10px;
 }
 
 .AboutMe {
@@ -68,7 +85,7 @@ h2 {
 }
 
 p {
-  font-color: white;
+  color: white;
   font-size: 16px;
 }
 
