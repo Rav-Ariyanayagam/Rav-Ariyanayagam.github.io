@@ -1,0 +1,119 @@
+
+
+ .navbar {
+  color: white;
+    bottom: 0; 
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: none;
+    display: inline;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 12px 12px 20px 12px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background: rgb(124, 160, 160);
+    color: rgb(227, 215, 215);
+  }
+
+  .main {
+    background-color: rgb(33, 36, 38);
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  body {
+  position: relative;
+  background-color: rgb(33, 36, 38);
+  font-family: 'Dosis';
+  color: rgb(33, 36, 38);
+  text-align: center;
+  padding: 16px;
+  padding-top: 60px;
+  padding-bottom: 16px;
+  font-size: 18px;
+  }
+
+  footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(124, 160, 160);
+      text-align: center;
+      padding: 20px;
+    }
+
+@media only screen and (max-width: 1500px) {
+  img {
+    min-width: 400px;
+    max-height: 400px;
+    padding: 20px;}
+}
+
+@media and only screen and (min-width:480px) and (orientation:portrait) {
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+}
+
+@media only screen and (min-width:480px) and (orientation:landscape){ 
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+}
+
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Content-section{ 
+  width: 600px;
+  margin : 10px ;
+  border : 1px solid white ;
+  background-color: rgb(124, 160, 160) ;
+  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.AboutMe, .Blog, .LearningPlan, .Skills, .Action, .CSSConcepts {
+  min-height : 100px ;
+}
+
+body, h1, h2, h3, h4, li, footer {
+  color:white;
+  font-family: 'Dosis', sans-serif;
+}
+
+p {
+  color:white;
+  font-family: 'Dosis', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+  
+footer {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
