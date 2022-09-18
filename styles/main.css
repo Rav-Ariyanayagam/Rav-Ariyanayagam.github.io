@@ -54,20 +54,7 @@
       text-align: center;
       padding: 20px;
     }
-
-@media only screen and (max-width: 1500px) {
-
-      .Content-section{ 
-        width: 500px;
-        margin : 10px ;
-        border : 1px solid white ;
-        background-color: rgb(124, 160, 160) ;
-        padding: 10px;
-        text-align: justify;
-        text-justify: inter-word;
-      }
-      }
-
+  
 
 #Content {
   display: flex;
@@ -117,21 +104,19 @@ footer {
 }
 
 
-
 @media only screen and (max-width: 1500px) {
 .main {
   background-color: rgb(61, 115, 96);
 }
-
-@media only screen and (max-width: 1500px) {
-  body {
+  
+body {
     background-color:rgb(61, 115, 96);
 }
 
-@media only screen and (max-width: 1500px) {
 image {
   width: 80%;
   height:80%;
+}
 }
 
 @media and only screen and (min-width:480px) and (orientation:portrait) {
